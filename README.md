@@ -124,7 +124,7 @@ Welcome!  This project serves as the first step to Active Directory implementati
 <img src="https://imgur.com/eFnQmQp.png" height="80%" width="80%" alt="Firewall state"/>
 
 - Click "Apply" and "Ok"
-- NOTE: Typically you probably wouldn't disable firewall settings, but for the sake of this project, we will disable them to prevent any complications.  Another way you could circumvent this is if you enable ICMP traffic in the firewall advanced settings.
+- NOTE: Typically you probably wouldn't disable firewall settings, but for the sake of this project, we will disable them to prevent any complications. Another way to circumvent this is if you enable ICMP traffic in the firewall advanced settings.
   
 </p>
 <br />
@@ -134,18 +134,17 @@ Welcome!  This project serves as the first step to Active Directory implementati
 <p>
 
 - Retrieve DC-1 VM private IP address and copy it
+<img src="https://imgur.com/OTUtsS0.png" height="80%" width="80%" alt="Firewall state"/>
 - Navigate to Client-1 VM -> Network Settings -> click on "Network Interface / IP configuration" box
 - On the left side of window, click on "DNS servers"
-<img src="https://i.imgur.com/hRfjdJG.png" height="80%" width="80%" alt="DNS Servers Section"/>
-
 - Under "DNS servers", select the "Custom" option and paste the DC-1 private IP address
-<img src="https://i.imgur.com/1f4xTNN.png" height="80%" width="80%" alt="DNS custom server"/>
+<img src="https://imgur.com/9EO5YBs.png" height="80%" width="80%" alt="DNS custom server"/>
 
 - Click "Save"
 - Navigate to "Virtual Machines" in Azure
 - Select "Client-1" box
 - Click "Restart"
-<img src="https://i.imgur.com/tfNOG5V.png" height="80%" width="80%" alt="Restart Client VM"/>
+<img src="https://imgur.com/boiVmFd.png" height="80%" width="80%" alt="Restart Client VM"/>
   
 </p>
 <br />
@@ -155,7 +154,10 @@ Welcome!  This project serves as the first step to Active Directory implementati
 <p>
 
 - Retrieve and copy public IP address of Client-1 VM
-- Paste public IP address into "Computer" section of Remote Desktop and connect to the VM
+<img src="https://imgur.com/SaJIdH4.png" height="80%" width="80%" alt="Restart Client VM"/>
+- Paste public IP address into "PC Name" section of Remote Desktop and connect to the VM
+<img src="https://imgur.com/vvTEif0.png" height="80%" width="80%" alt="Restart Client VM"/>
+<img src="https://imgur.com/Ef1PZMH.png" height="80%" width="80%" alt="Restart Client VM"/>
   
 </p>
 <br />
@@ -167,15 +169,15 @@ Welcome!  This project serves as the first step to Active Directory implementati
 - Within the Client-1 VM, open PowerShell
 - Ping the Domain Controller by typing "ping(private IP address)" (Example: ping 10.0.0.4)
 - Observe and make sure the ping is successful
-<img src="https://i.imgur.com/8gzdCs6.png" height="80%" width="80%" alt="Ping domain controller"/>
+<img src="https://imgur.com/7kho6Rk.png" height="80%" width="80%" alt="Ping domain controller"/>
   
 </p>
 
 <h2>Conclusion</h2>
 
 <p>
-If you're reading this, then hopefully you have succesfully completed every step of this project.  This project has built the foundation for the following Active Directory projects.  Now that our Domain Controller and Client are connected and configured, we can dig deeper into more advanced implementations and configurations of Active Directory.
+If you're reading this, then hopefully you have succesfully completed every step of this project.  This project has built the foundation for the following Active Directory projects. Now that our Domain Controller and Client are connected and configured, we can dig deeper into more advanced implementations and configurations of Active Directory.
 
-- If you would like to continue to the next step in this series of Active Directory projects, please click <a href="https://github.com/christianDCdev/ad-deploy-and-config">here</a>
+- If you would like to continue to the next step in this series of Active Directory projects, please click <a href="https://github.com/cristopherb19/ad-deploy-and-config">here</a>
 
 </p>
