@@ -32,7 +32,8 @@ Welcome!  This project serves as the first step to Active Directory implementati
 
 - Within Azure, create a resource group
 - Create a virtual network and select the resource group you just created
-<img src="https://i.imgur.com/dUowvkj.png" height="80%" width="80%" alt="Virtual network creation"/>
+<img src="https://imgur.com/WT0TuB7.png" height="80%" width="80%" alt="Virtual network creation"/>
+<img src="https://imgur.com/bHSly6Q.png" height="80%" width="80%" alt="VM licensing"/>
   
 </p>
 
@@ -47,7 +48,7 @@ Welcome!  This project serves as the first step to Active Directory implementati
 - Under "Size", select option with at least 2 vcpus
 - Choose and confirm "Username" and "Password" under "Administrator Account" section
 - Confirm licensing
-<img src="https://i.imgur.com/2yLaJgw.png" height="80%" width="80%" alt="VM licensing"/>
+<img src="https://imgur.com/XaJyHXQ.png" height="80%" width="80%" alt="VM licensing"/>
 
 - Navigate to "Networking" tab
 - Under "Virtual Network", select the virtual network you created in the previous step
@@ -63,7 +64,7 @@ Welcome!  This project serves as the first step to Active Directory implementati
 
 - Create a virtual machine and name it "Client-1"
 - Under "Image", select Windows 10 Pro
-<img src="https://i.imgur.com/IcWRnUO.png" height="80%" width="80%" alt="Client image"/>
+<img src="https://imgur.com/dngd9S1.png" height="80%" width="80%" alt="Client image"/>
 
 - Under "Size", select option with at least 2 vcpus
 - Choose and confirm "Username" and "Password" under "Administrator Account" section
