@@ -113,14 +113,13 @@ Welcome!  This project serves as the first step to Active Directory implementati
 
 <p>
 
-- Within the DC-1 VM, navigate to "Windows Defender FIrewall with Advanced Security"
+- While in the DC-1 VM, navigate to "Windows Defender FIrewall with Advanced Security"
 - Click "Windows Defender Firewall Properties"
 - Turn off "Firewall State" in "Domain Profile", "Private Profile", and "Public Profile" tabs
 <img src="https://imgur.com/OfWat2p.png" height="80%" width="80%" alt="Firewall state"/>
 <img src="https://imgur.com/0XpCgim.png" height="80%" width="80%" alt="Firewall state"/>
 <img src="https://imgur.com/M97qS5Y.png" height="80%" width="80%" alt="Firewall state"/>
 <img src="https://imgur.com/eFnQmQp.png" height="80%" width="80%" alt="Firewall state"/>
-
 - Click "Apply" and "Ok"
 - NOTE: Typically you probably wouldn't disable firewall settings, but for the sake of this project, we will disable them to prevent any complications. Another way to circumvent this is if you enable ICMP traffic in the firewall advanced settings.
   
@@ -137,7 +136,6 @@ Welcome!  This project serves as the first step to Active Directory implementati
 - On the left side of window, click on "DNS servers"
 - Under "DNS servers", select the "Custom" option and paste the DC-1 private IP address
 <img src="https://imgur.com/9EO5YBs.png" height="80%" width="80%" alt="DNS custom server"/>
-
 - Click "Save"
 - Navigate to "Virtual Machines" in Azure
 - Select "Client-1" box
