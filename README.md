@@ -85,23 +85,27 @@ Welcome!  This project serves as the first step to Active Directory implementati
 - Navigate to your DC-1 VM in Azure
 - Navigate to "Network Settings"
 - Click on "Network Interface / IP configuration" box
-<img src="https://i.imgur.com/doR4UIN.png" height="80%" width="80%" alt="NIC"/>
+<img src="https://imgur.com/DncY5pb.png" height="80%" width="80%" alt="NIC"/>
 
 - Click on "ipconfig1"
 - Under "Allocation", select "Static"
-<img src="https://i.imgur.com/sAXIAEH.png" height="80%" width="80%" alt="NIC"/>
+<img src="https://imgur.com/WN6rdJa.png" height="80%" width="80%" alt="NIC"/>
 
 - Click "Save" and now your Domain Controller's private IP address will not change
   
 </p>
 <br />
 
-<h3>&#9316; Connect to the Domain Controller with Remote Desktop</h3>
+<h3>&#9316; Connect to the Domain Controller with Microsoft Remote Desktop App: If using Mac, install Windows App. </h3>
 
 <p>
 
 - Retrieve and copy public IP address of DC-1 VM
+<img src="https://imgur.com/kYXljPN.png" height="80%" width="80%" alt="NIC"/>
+
 - Paste public IP address into "Computer" section of Remote Desktop and connect to the VM
+<img src="https://imgur.com/mdyUYXJ.png" height="80%" width="80%" alt="NIC"/>
+<img src="https://imgur.com/l2YZ3GM.png" height="80%" width="80%" alt="NIC"/>
 - NOTE: If you don't see "Server Manager" application in your VM, it means you are either in the wrong VM or created the wrong type of VM
   
 </p>
