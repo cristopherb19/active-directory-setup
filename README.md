@@ -103,7 +103,7 @@ Welcome!  This project serves as the first step to Active Directory implementati
 - Retrieve and copy public IP address of DC-1 VM
 <img src="https://imgur.com/kYXljPN.png" height="80%" width="80%" alt="NIC"/>
 
-- Paste public IP address into "Computer" section of Remote Desktop and connect to the VM
+- Paste public IP address into "PC Name" section of Remote Desktop and connect to the VM
 <img src="https://imgur.com/mdyUYXJ.png" height="80%" width="80%" alt="NIC"/>
 <img src="https://imgur.com/l2YZ3GM.png" height="80%" width="80%" alt="NIC"/>
 - NOTE: If you don't see "Server Manager" application in your VM, it means you are either in the wrong VM or created the wrong type of VM
@@ -116,11 +116,12 @@ Welcome!  This project serves as the first step to Active Directory implementati
 <p>
 
 - Within the DC-1 VM, navigate to "Windows Defender FIrewall with Advanced Security"
-<img src="https://i.imgur.com/3ZfNDpQ.png" height="80%" width="80%" alt="Firewall"/>
-
 - Click "Windows Defender Firewall Properties"
 - Turn off "Firewall State" in "Domain Profile", "Private Profile", and "Public Profile" tabs
-<img src="https://i.imgur.com/ukzHtgz.png" height="80%" width="80%" alt="Firewall state"/>
+<img src="https://imgur.com/OfWat2p.png" height="80%" width="80%" alt="Firewall state"/>
+<img src="https://imgur.com/0XpCgim.png" height="80%" width="80%" alt="Firewall state"/>
+<img src="https://imgur.com/M97qS5Y.png" height="80%" width="80%" alt="Firewall state"/>
+<img src="https://imgur.com/eFnQmQp.png" height="80%" width="80%" alt="Firewall state"/>
 
 - Click "Apply" and "Ok"
 - NOTE: Typically you probably wouldn't disable firewall settings, but for the sake of this project, we will disable them to prevent any complications.  Another way you could circumvent this is if you enable ICMP traffic in the firewall advanced settings.
