@@ -30,8 +30,8 @@ Welcome!  This project serves as the first step to Active Directory implementati
 <h3>&#9312; Create Resource Group and Virtual Network</h3>
 <p>
 
-- Within Azure, create a resource group
-- Create a virtual network and select the resource group you just created
+- In Azure, create a resource group
+- Create a virtual network and select the previously created resource group 
 <img src="https://imgur.com/WT0TuB7.png" height="80%" width="80%" alt="Virtual network creation"/>
 <img src="https://imgur.com/bHSly6Q.png" height="80%" width="80%" alt="VM licensing"/>
   
@@ -45,13 +45,12 @@ Welcome!  This project serves as the first step to Active Directory implementati
 - Under "Image", select Windows Server 2022 Datacenter: Azure Edition
 
 
-- Under "Size", select option with at least 2 vcpus
-- Choose and confirm "Username" and "Password" under "Administrator Account" section
-- Confirm licensing
+- Under "Size", select an option with at least 2 vcpus
+- Choose and confirm "Username" and "Password" of your choice under "Administrator Account" section
 <img src="https://imgur.com/XaJyHXQ.png" height="80%" width="80%" alt="VM licensing"/>
 
 - Navigate to "Networking" tab
-- Under "Virtual Network", select the virtual network you created in the previous step
+- Under "Virtual Network", select the virtual network created in the previous step
 <img src="https://i.imgur.com/GmLc5OP.png" height="80%" width="80%" alt="Virtual network selection"/>
 
 - Review + create your VM
@@ -64,13 +63,12 @@ Welcome!  This project serves as the first step to Active Directory implementati
 
 - Create a virtual machine and name it "Client-1"
 - Under "Image", select Windows 10 Pro
-<img src="https://imgur.com/dngd9S1.png" height="80%" width="80%" alt="Client image"/>
-
-- Under "Size", select option with at least 2 vcpus
+- Under "Size", select an option with at least 2 vcpus
 - Choose and confirm "Username" and "Password" under "Administrator Account" section
 - Confirm licensing
 - Navigate to "Networking" tab
 - Under "Virtual Network", select the same virtual network you did in the previous step
+<img src="https://imgur.com/dngd9S1.png" height="80%" width="80%" alt="Client image"/>
 <img src="https://i.imgur.com/GmLc5OP.png" height="80%" width="80%" alt="Virtual network selection"/>
 
 - Review + create your VM
